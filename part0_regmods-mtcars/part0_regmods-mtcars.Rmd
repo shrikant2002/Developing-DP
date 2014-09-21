@@ -19,15 +19,12 @@ Here the difference of the MPG between automatic and manual transmissions is foc
 the `mtcars` dataset in car package is taken as the data source, 
 and techniques about regression models is used to solve the following two questions:
 
-* “Is an automatic or manual transmission better for MPG”
-*  “Quantifying how different is the MPG between automatic and manual transmissions?”
-
 
 # Data Processing
 
 ## Load and Test Data
 
-> The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
+ The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobile.
 
 ```{r cache=TRUE}
 library(datasets)
@@ -69,5 +66,4 @@ with(mpgData,{
      abline(fit, col=2)
      })
 ```
-
 
